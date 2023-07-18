@@ -1,0 +1,443 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1685474248928042, "dur":3837, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685474248931886, "dur":91, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1685474248932023, "dur":33, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1685474248932057, "dur":262, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1685474248932352, "dur":1138, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685474248933490, "dur":3, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685474252958862, "dur":155, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685474252959017, "dur":23, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685474252959040, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685474252959046, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685474252959059, "dur":7, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685474252959066, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685474252959081, "dur":841, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685474252959922, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685474252959938, "dur":1, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685474252959962, "dur":4, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685474252960012, "dur":3512, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1685474248935059, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685474248935060, "dur":9082, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685474248944164, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1685474248944169, "dur":140, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685474248944316, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1685474248944328, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685474248945457, "dur":12541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1685474248958004, "dur":181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1685474248958190, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685474248958260, "dur":34183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1685474248992527, "dur":201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1685474248992733, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685474248992746, "dur":3381, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1685474248996200, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1685474248996373, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685474248996385, "dur":22347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1685474249018798, "dur":174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1685474249018977, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685474249018990, "dur":544754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1685474249563816, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685474249563889, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685474249563900, "dur":140482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685474249704444, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685474249704509, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685474249704570, "dur":125221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685474249829852, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685474249829923, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685474249829934, "dur":402841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685474250232846, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685474250232910, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685474250232920, "dur":35810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685474250268791, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685474250268849, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685474250268860, "dur":103135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685474250372056, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685474250372117, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685474250372127, "dur":70653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685474250442834, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685474250442920, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685474250442931, "dur":30258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685474250473243, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685474250473301, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685474250473314, "dur":66235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685474250539609, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685474250539673, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685474250539683, "dur":42530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685474250582281, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685474250582343, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685474250582354, "dur":89147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685474250671559, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685474250671615, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685474250671626, "dur":99953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685474250771667, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685474250771733, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685474250771745, "dur":208128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685474250979927, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685474250979984, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685474250979994, "dur":55882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685474251035937, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685474251036004, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685474251036028, "dur":64353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685474251100442, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685474251100506, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685474251100517, "dur":42458, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685474251143034, "dur":139871, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685474251282912, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685474251282925, "dur":2809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685474251285796, "dur":111496, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685474251397299, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685474251397311, "dur":1589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685474251398958, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685474251399014, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685474251399024, "dur":93162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685474251492246, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685474251492303, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685474251492314, "dur":278896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685474251771269, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685474251771331, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685474251771341, "dur":59699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685474251831097, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685474251831159, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685474251831169, "dur":331407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685474252162640, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685474252162704, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685474252162715, "dur":77485, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685474252240325, "dur":493, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685474252240824, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685474252240835, "dur":188543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685474252429451, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685474252429517, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685474252429527, "dur":529230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685474252958821, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":1, "ts":1685474252958824, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685474248935059, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685474248935061, "dur":9159, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685474248944220, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1685474248944392, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685474248947378, "dur":19295, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1685474248966745, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1685474248966911, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685474248966923, "dur":18200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1685474248985194, "dur":239, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1685474248985438, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685474248986189, "dur":3085, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1685474248989423, "dur":242, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1685474248989670, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685474248989769, "dur":45427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1685474249035268, "dur":208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1685474249035481, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685474249035583, "dur":166415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1685474249202092, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1685474249202270, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685474249202284, "dur":718390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1685474249920798, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685474249920918, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685474249920947, "dur":109348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685474250030361, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685474250030421, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685474250030464, "dur":80328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685474250110852, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685474250110913, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685474250110930, "dur":50240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685474250161233, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685474250161302, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685474250161312, "dur":74343, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685474250235873, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685474250235956, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685474250235967, "dur":99404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685474250335429, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685474250335493, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685474250335503, "dur":216733, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685474250552326, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685474250552390, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685474250552401, "dur":43420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685474250595880, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685474250595957, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685474250595969, "dur":44950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685474250641024, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685474250641105, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685474250641116, "dur":45410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685474250686593, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685474250686664, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685474250686677, "dur":67817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685474250754558, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685474250754633, "dur":111, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685474250754757, "dur":48456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685474250803272, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685474250803331, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685474250803342, "dur":37201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685474250840616, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685474250840726, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685474250840737, "dur":27606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685474250868404, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685474250868464, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685474250868475, "dur":46094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685474250914627, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685474250914685, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685474250914697, "dur":28345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685474250943099, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685474250943156, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685474250943164, "dur":36114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685474250979338, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685474250979392, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685474250979401, "dur":77032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685474251056493, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685474251056554, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685474251056565, "dur":229176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685474251285810, "dur":423045, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685474251708861, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685474251708874, "dur":1940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685474251710876, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685474251710935, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685474251710946, "dur":136269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685474251847274, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685474251847329, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685474251847339, "dur":361030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685474252208449, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685474252208523, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685474252208541, "dur":269208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685474252477813, "dur":184880, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685474252662700, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685474252662712, "dur":47050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685474252709817, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":2, "ts":1685474252709894, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685474252709901, "dur":13035, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":2, "ts":1685474252723066, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1685474252723142, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685474252723152, "dur":2633, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1685474252725836, "dur":1318, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1685474252727165, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685474252727180, "dur":1632, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1685474252728873, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1685474252728942, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685474252728954, "dur":2658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1685474252731678, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/level1" }}
+,{ "pid":12345, "tid":2, "ts":1685474252731744, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685474252731757, "dur":1799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/level1" }}
+,{ "pid":12345, "tid":2, "ts":1685474252733614, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1685474252733677, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685474252733690, "dur":2058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1685474252735809, "dur":223051, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685474248935078, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685474248935078, "dur":9070, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685474248944163, "dur":309, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1685474248944476, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685474248968076, "dur":10244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1685474248978389, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1685474248978549, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685474248978561, "dur":582794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1685474249561425, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685474249561506, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685474249561572, "dur":92665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685474249654299, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685474249654356, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685474249654368, "dur":90860, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685474249745299, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685474249745360, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685474249745371, "dur":78034, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685474249823463, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685474249823521, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685474249823533, "dur":54821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685474249878411, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685474249878466, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685474249878477, "dur":76269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685474249954804, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685474249954862, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685474249954874, "dur":55923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685474250010861, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685474250010925, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685474250010936, "dur":27821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685474250038813, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685474250038872, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685474250038883, "dur":135100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685474250174070, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685474250174132, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685474250174145, "dur":289932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685474250464139, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685474250464196, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685474250464207, "dur":118023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685474250582292, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685474250582352, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685474250582361, "dur":40969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685474250623387, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685474250623485, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685474250623497, "dur":95262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685474250718819, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685474250718879, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685474250718894, "dur":35612, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685474250754572, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685474250754743, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685474250754753, "dur":59649, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685474250814461, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685474250814518, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685474250814529, "dur":42200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685474250856825, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685474250856904, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685474250856916, "dur":48268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685474250905258, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685474250905343, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685474250905355, "dur":37555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685474250942975, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685474250943040, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685474250943050, "dur":35791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685474250978903, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685474250978991, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685474250979003, "dur":51630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685474251030726, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685474251030790, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685474251030801, "dur":37304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685474251068166, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685474251068226, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685474251068236, "dur":89222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685474251157522, "dur":150120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685474251307649, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685474251307694, "dur":10788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685474251318540, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685474251318600, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685474251318610, "dur":416416, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685474251735100, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685474251735161, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685474251735172, "dur":132945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685474251868177, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685474251868240, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685474251868298, "dur":342290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685474252210651, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685474252210710, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685474252210720, "dur":220290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685474252431070, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685474252431128, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685474252431138, "dur":467720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685474252898920, "dur":59922, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685474248935092, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685474248935093, "dur":9053, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685474248944163, "dur":197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1685474248944364, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685474248946567, "dur":84661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1685474249031440, "dur":854, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1685474249032300, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685474249032850, "dur":15286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1685474249048212, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1685474249048381, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685474249048394, "dur":135065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1685474249183540, "dur":175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1685474249183719, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685474249183731, "dur":18746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1685474249202540, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1685474249202686, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685474249202697, "dur":12891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1685474249215665, "dur":166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1685474249215835, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685474249215847, "dur":19175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1685474249235099, "dur":209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685474249235313, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685474249235721, "dur":31963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685474249267755, "dur":198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685474249267957, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685474249268045, "dur":17984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685474249286123, "dur":191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685474249286318, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685474249286327, "dur":67149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685474249353543, "dur":197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1685474249353745, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685474249353754, "dur":5992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1685474249359816, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject.exe" }}
+,{ "pid":12345, "tid":4, "ts":1685474249359891, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685474249359900, "dur":52136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject.exe" }}
+,{ "pid":12345, "tid":4, "ts":1685474249412104, "dur":182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1685474249412294, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685474249412666, "dur":52783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1685474249465525, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685474249465601, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685474249465954, "dur":120594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685474249586607, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685474249586687, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685474249586698, "dur":164648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685474249751403, "dur":4529, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685474249755941, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685474249755954, "dur":219417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685474249975432, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685474249975497, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685474249975509, "dur":35299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685474250010868, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685474250010930, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685474250010936, "dur":126230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685474250137225, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685474250137285, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685474250137296, "dur":59831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685474250197184, "dur":314086, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685474250511277, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685474250511289, "dur":1635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685474250512980, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685474250513041, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685474250513052, "dur":55350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685474250568467, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685474250568543, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685474250568569, "dur":44231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685474250612863, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685474250612931, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685474250612942, "dur":27230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685474250640313, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685474250640424, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685474250640435, "dur":89505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685474250730005, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685474250730067, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685474250730078, "dur":76566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685474250806701, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685474250806762, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685474250806806, "dur":34097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685474250840985, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685474250841055, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685474250841065, "dur":97981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685474250939106, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685474250939164, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685474250939175, "dur":195469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685474251134710, "dur":64476, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685474251199193, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685474251199206, "dur":1318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685474251200581, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685474251200649, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685474251200659, "dur":108187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685474251308903, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685474251308963, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685474251308974, "dur":144699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685474251453730, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685474251453794, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685474251453805, "dur":146614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685474251600483, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685474251600543, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685474251600555, "dur":234384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685474251835008, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685474251835096, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685474251835144, "dur":53909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685474251889110, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685474251889167, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685474251889177, "dur":289383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685474252178620, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685474252178676, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685474252178686, "dur":529229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685474252707984, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1685474252708051, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685474252708113, "dur":1614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1685474252709786, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":4, "ts":1685474252709846, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685474252709855, "dur":11636, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":4, "ts":1685474252721556, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1685474252721623, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685474252721634, "dur":4042, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1685474252725734, "dur":174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1685474252725915, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685474252725928, "dur":1617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1685474252727603, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1685474252727662, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685474252727674, "dur":4392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1685474252732119, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1685474252732178, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685474252732188, "dur":1618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1685474252733857, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1685474252733919, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685474252733930, "dur":1668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1685474252735663, "dur":197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1685474252735866, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685474252735878, "dur":1841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/uguro/Desktop/GizemKocyigit-MazeGameBuild/MazeGameProject_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1685474252737778, "dur":221063, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685474252966782, "dur":3130, "ph":"X", "name": "ProfilerWriteOutput" }
+,
